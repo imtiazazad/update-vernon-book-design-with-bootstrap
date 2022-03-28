@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@mixin button {
+    background: transparent linear-gradient(99deg, #7B2CBF 0%, #692592 42%, #4D194D 100%) 0% 0% no-repeat padding-box;
+    padding: 12px 30px;
+    border: 0;
+    color: aliceblue;
+    box-shadow: 0px 18px 29px #6A227C45;
+    border-radius: 4px; //not working border radius??
+    opacity: 1;
+}
+
+header{
+    background: #240046;
+    text-align: center;
+}
+button{
+    @include button;
+}
+.grid-design{
+    background: linear-gradient(rgba(0, 100, 102, 1), rgba(0, 100, 102, 1)), url(../images/meditation.jpg); //image not working!!
+    padding-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 30px;
+}
+.grid-content{
+    height: 274px;
+    width: 599x;
+     margin-right: 30px;   
+}
+.grid-text{
+    margin: 30px;
+    h5{
+        color: #006466;
+    }
+}
+.law-content{
+    text-align: justify;
+}
+
+.circle-dot{
+    height: 45px;
+    width: 45px;
+    padding-top:10px;
+    padding-left: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #006466;
+    }
+.coach-content{
+    box-shadow: 0px 31px 40px #89868629;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #7070705C;
+    border-radius: 26px;
+    opacity: 1;
+}
+.fa-star {
+    color: #7B2CBF;
+  }
+.author-msg{
+    background: rgb(231, 221, 240); //found this rgba code in xd file 
+}
+
+ul{
+    li{
+        list-style: none;
+        text-align: left;
+        margin-bottom: 10px;
+        
+        &::before{
+            content: "\233E";
+            background-color: #7B2CBF;
+            margin-right: 10px;
+            height: 25px;
+            width: 25px;
+            padding-top:1px;
+            padding-left: 5px;
+            border-radius: 50%;
+            padding: px;
+            display: inline-block;
+        }
+    }
+}
+.social a {
+    background-color: #240046;
+    color: #fff;
+    padding: 6px 9px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 15px;
+  }
+footer{
+    margin-top: 15px;
+    background: #240046;
+    height: 120px;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h5{
+        color: #fff;   
+    }
+    } 
