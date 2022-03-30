@@ -15,6 +15,12 @@
 header{
     background: #240046;
     text-align: center;
+    width: 100%;
+}
+.grid-header{
+    border: 0; 
+    margin: 50px 100px; 
+    padding: 50px 320px
 }
 button{
     @include button;
@@ -29,7 +35,7 @@ button{
 .grid-content{
     height: 274px;
     width: 599x;
-     margin-right: 30px;   
+    margin-right: 30px;   
 }
 .grid-text{
     margin: 30px;

@@ -6,6 +6,13 @@
 header {
   background: #240046;
   text-align: center;
+  width: 100%;
+}
+
+.grid-header {
+  border: 0;
+  margin: 50px 100px;
+  padding: 50px 320px;
 }
 
 button {
